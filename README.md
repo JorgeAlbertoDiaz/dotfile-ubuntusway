@@ -11,7 +11,7 @@ Necesitarás tener instalado `git` y `stow`.
 
 ```bash
 git clone git@github.com:JorgeAlbertoDiaz/dotfiles.git
-``
+```
 
 - Ejecuta el comando `stow` para crear un symlink de todo o solo selecciona lo que quieres.
 
