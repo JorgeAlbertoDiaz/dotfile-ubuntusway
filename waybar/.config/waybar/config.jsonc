@@ -1,0 +1,34 @@
+{
+    "include": [
+        "/etc/xdg/xdg-ubuntusway/waybar/config.jsonc"
+    ],
+    "height": 16,
+
+    "modules-right": [
+        "custom/weather",
+        // "custom/wlsunset",
+        "custom/playerctl",
+        "custom/scratchpad",
+        "idle_inhibitor",
+        "custom/dnd",
+        // "sway/language",
+        // "custom/clipboard",
+        "cpu",
+        "memory",
+        "network",
+        // "battery",
+        "bluetooth",
+        "pulseaudio",
+        "clock",
+        "custom/power",
+        "tray"
+    ],
+    "network": {
+       "interval": 1,
+       "format-wifi": " ({signalStrength}%) {bandwidthDownBits}  {bandwidthUpBits} ",
+       "format-ethernet": " {bandwidthDownBits}  {bandwidthUpBits} ",
+       "format-disconnected": "",
+       "tooltip-format": "{ifname} ({essid}): {ipaddr}",
+       "on-click": "swaymsg exec \\$term_float nmtui"
+    }
+}
