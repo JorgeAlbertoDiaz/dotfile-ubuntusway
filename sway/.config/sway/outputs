@@ -1,0 +1,18 @@
+output "LVDS-1" {
+    mode  1366x768@60.031Hz
+    pos 1920 312
+    transform normal
+    scale 1.0
+    scale_filter nearest
+    adaptive_sync off
+    dpms on
+}
+output "VGA-1" {
+    mode  1920x1080@60.0Hz
+    pos 0 0
+    transform normal
+    scale 1.0
+    scale_filter nearest
+    adaptive_sync off
+    dpms on
+}
