@@ -1,0 +1,19 @@
+[colors]
+background=212121   #212121
+foreground=E0E0E0   #E0E0E0
+regular0=424242     #424242
+regular1=D84315     #D84315
+regular2=2E7D32     #2E7D32
+regular3=EF6C00     #EF6C00
+regular4=0D47A1     #0D47A1 
+regular5=AD1457     #AD1457
+regular6=0277B0     #0277BD
+regular7=03A9F4     #03A9F4
+bright0=9E9E9E      #9E9E9E 
+bright1=FF3D00      #FF3D00
+bright2=00E676      #00E676
+bright3=FF9100      #FF9100
+bright4=2979FF      #2979FF
+bright5=F50057      #F50057
+bright6=00B0FF      #00B0FF
+bright7=FAFAFA      #FAFAFA
